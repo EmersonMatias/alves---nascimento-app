@@ -5,10 +5,10 @@ import Section2 from "./components/sections/section-2/section-2"
 function App() {
 
   return (
-    <main>
+    <main style={{display: 'flex', flexDirection: 'column'}}>
       <HeroSection />
       <Section2 />
-     
+   
     </main>
   )
 }

@@ -1,11 +1,11 @@
 import styled from "styled-components"
 
 
-
 const Container = styled.div`
-    width: 120rem;
-    height: 40rem;
+    max-width: 120rem;
+    min-height: 40rem;
     display: flex;
+
 
     .content{
         padding: 3.2rem 2.4rem;
@@ -21,12 +21,12 @@ const Container = styled.div`
             font-size: 1.6rem;
             line-height: 1.2;
             margin-top: 0.8rem;
+            margin-bottom: 1.6rem;
         }
     }
 
     img{
-        width: 60rem;
-        height: 40rem;
+        max-width: 60rem;
     }
 
 `

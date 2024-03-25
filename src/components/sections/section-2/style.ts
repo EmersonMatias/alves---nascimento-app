@@ -3,8 +3,7 @@ import styled from "styled-components"
 
 const Container = styled.section`
     width: 100%;
-    height: 100vh;
-    padding: 12rem 8rem;
+    padding: 12rem 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,40 +26,35 @@ const Container = styled.section`
 
 const Box1 = styled.div`
     margin-top: 6rem;
-    background-color: #262626;
+    background-color: #313131;
+`
 
-    .card{
-        width: 120rem;
-        height: 40rem;
-        display: flex;
+const Box2 = styled.div`
+    margin-top: 8rem;
+    max-width: 80rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        .content{
-            padding: 3.2rem 2.4rem;
-
-            h3{
-                font-size: 3.2rem;
-                font-family: ${props => props.theme.fontFamily.cinzel};
-                font-weight: 600;
-                color: ${props => props.theme.colors.gold};
-            }
-
-            h6{
-                font-size: 1.6rem;
-            }
-        }
-
-        img{
-            width: 60rem;
-            height: 40rem;
-        }
+    h3{
+        font-size: 3.2rem;
+        color: ${props => props.theme.colors.gold};
+        margin-bottom: 0.8rem;
     }
+
+    p{
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+
 `
 
 
 
 
 const Style = {
-    Container,Box1
+    Container,Box1,Box2
 }
 
 export default Style

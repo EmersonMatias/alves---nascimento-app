@@ -1,3 +1,4 @@
+import Line from "../line/line";
 import Style from "./style";
 
 interface CardProps {
@@ -5,10 +6,11 @@ interface CardProps {
     title: string,
     description: string,
     img: string,
-    alt: string
+    alt: string,
+    subareas?: string[]
 }
 
-export default function Card({ side, alt, description, img, title }: CardProps) {
+export default function Card({ side, alt, description, img, title, subareas }: CardProps) {
 
     return (
         <Style.Container>
@@ -20,7 +22,12 @@ export default function Card({ side, alt, description, img, title }: CardProps) 
                         <h3>{title}</h3>
                         <h6>{description}</h6>
 
+                        {subareas?.map((subarea) => {
+                            return <Line key={subarea} title={subarea} />
+                        })}
                     </div>
+
+
                 </>
             }
             {side === "right" &&
@@ -28,6 +35,10 @@ export default function Card({ side, alt, description, img, title }: CardProps) 
                     <div className="content">
                         <h3>{title}</h3>
                         <h6>{description}</h6>
+
+                        {subareas?.map((subarea) => {
+                            return <Line key={subarea} title={subarea} />
+                        })}
 
                     </div>
 
