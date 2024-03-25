@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import BackgroundImage from "../../assets/img/Background.webp"
+import BackgroundImage from "../../../assets/img/Background.webp"
 
 const Container = styled.section`
     width: 100%;
