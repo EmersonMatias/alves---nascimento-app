@@ -1,3 +1,4 @@
+import Footer from "./components/footer/footer"
 import HeroSection from "./components/sections/hero-section/hero-section"
 import Section2 from "./components/sections/section-2/section-2"
 import Section3 from "./components/sections/section-3/section-3"
@@ -15,7 +16,8 @@ function App() {
       <Section3 />
       <Section4 />
       <Section5 />
-      <Section6/>
+      <Section6 />
+      <Footer />
     </main>
   )
 }
