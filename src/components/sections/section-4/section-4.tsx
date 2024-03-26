@@ -13,7 +13,7 @@ export default function Section4() {
 
             <Style.Box2>
                 {Section4Contents.map(({ img, description, name, oab }) => {
-                    return <Card3 description={description} name={name} oab={oab} img={img} />
+                    return <Card3 key={name} description={description} name={name} oab={oab} img={img} />
                 })}
             </Style.Box2>
 
