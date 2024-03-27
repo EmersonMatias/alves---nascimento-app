@@ -21,22 +21,11 @@ const Container = styled.footer`
     .copyright{
         font-weight: 600;
     }
-`
-
-const Box1 = styled.div`
-    margin-bottom: 1.6rem;
-    gap: 8rem;
-    display: flex;
-
-    .left, .right{
-        display: flex;
-        flex-direction: column;
-        gap: 0.8rem;
-    }
 
     .social{
         display: flex;
         align-items: center;
+
         
         gap: 0.8rem;
 
@@ -46,8 +35,30 @@ const Box1 = styled.div`
     }
 `
 
-const Box2 = styled.div`
+const Box1 = styled.div`
+    margin-bottom: 3.2rem;
+    gap: 8rem;
+    display: flex;
 
+
+    .left, .right{
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .location{
+        line-height: 1.4;
+    }
+`
+
+const Box2 = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
 `
 
 const Logo = styled.img`

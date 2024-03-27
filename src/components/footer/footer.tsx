@@ -15,8 +15,6 @@ export default function Footer() {
 
                     <div className="social"><img src={Whatsapp} alt="Whatsapp" /> <p>Whatsapp</p></div>
                     <div className="social"><img src={Gmail} alt="Gmail" /> <p>Gmail</p></div>
-                    <div className="social"><img src={Location} alt="Location" /> <p>Rua Amazonas - XXXX</p></div>
-
                 </div>
 
                 <Style.Logo src={Logo} alt="Logo Armando & Nascimento" />
@@ -31,6 +29,8 @@ export default function Footer() {
             </Style.Box1>
 
             <Style.Box2>
+            <div className="social location"><img src={Location} alt="Location" /> <p>Rua Amazonas, 1.422 - Campos Elísios Ribeirão Preto - SP</p></div>
+
                 Copyright 2024. Alves & Nascimento Advocacia. Todos os direitos reservados.
             </Style.Box2>
         </Style.Container>

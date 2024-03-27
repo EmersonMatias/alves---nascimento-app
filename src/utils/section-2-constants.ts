@@ -19,7 +19,7 @@ export const Section2Contents = [
         img: INSS,
         alt: "INSS & Aposentadoria",
         side: "right",
-        subareas: ["APOSENTADORIA", "PENSÃO POR MORTE", "AUXÍLIO DOENÇA", "AUXÍLIO RECLUSÃO"]
+        subareas: ["APOSENTADORIA", "PENSÃO POR MORTE", "AUXÍLIO DOENÇA", "AUXÍLIO RECLUSÃO", "AUXILIO ACIDENTE", "BPC/LOAS"]
     },
     {
         title: "Direito do Consumidor",
@@ -38,10 +38,10 @@ export const Section2Contents = [
         subareas: ["DIVÓRCIO & SEPARAÇÃO", "INVENTÁRIO", "PENSÃO ALIMENTÍCIA", "GUARDA FAMILIAR", "RECONHECIMENTO DE PATERNIDADE"]
     },
     {
-        title: "Residência e Domicílio",
+        title: "Imobiliário",
         description: "Se estiver com algum problema na área de residência e domicílio, saiba como podemos te ajudar:",
         img: ResidenciaEDomicilio,
-        alt: "Residência e Domicílio",
+        alt: "Imobiliário",
         side: "left",
         subareas: ["DESPEJO", "QUEBRA DO CONTRATO DE ALUGUEL", "ATRASO NA ENTREGA DE IMÓVEL", "FINANCIAMENTO IMOBILIÁRIO", "DESISTÊNCIA DA COMPRA E VENDA"]
     },

@@ -69,7 +69,6 @@ const Box1 = styled.div`
 
 const Box2 = styled.div`
     margin-top: 8rem;
-    background-color: gray;
     display: flex;
     gap: 4rem;
 
@@ -81,7 +80,9 @@ const Box2 = styled.div`
         display: flex;
         align-items: center;
         gap: 1.6rem;
-        margin-top: 2.4rem;
+        margin: 2.4rem 0rem;
+        text-align: center;
+        line-height: 1.4;
 
         p{
             font-size: 1.6rem;
@@ -93,7 +94,11 @@ const Box2 = styled.div`
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background-color: pink;
+    }
+
+    .maps{
+        width: 100%;
+        height: 100%;
     }
 
 `

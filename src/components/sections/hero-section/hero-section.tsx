@@ -12,7 +12,7 @@ export default function HeroSection() {
                 <h1>Alves <span className="fontSize">&</span> <br /> Nascimento</h1>
                 <h5><Bold>Advocacia Especializada</Bold></h5>
                 <h5 className="areas">CIVIL | TRABALHISTA | PREVIDENCIÁRIO (INSS)</h5>
-                <h5 className="areas">DIREITO DE FAMILIA | DIREITO CIVIL</h5>
+                <h5 className="areas">FAMILIA | CONSUMIDOR</h5>
             </Style.Box1>
 
             <Style.Box2>
