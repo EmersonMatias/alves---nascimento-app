@@ -21,19 +21,30 @@ const Container = styled.section`
         margin-top: 0.8rem;
     }
 
+    @media screen and (max-width: 1080px){
+        flex-direction: column;
+    }
+
 `
 
 const Box1 = styled.div`
     max-width: 28rem;
+    margin-right: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media screen and (max-width: 1080px){
+        max-width: 100%;
+        background-color: gray;
+        align-items: center;
+        margin-bottom: 3.2rem;
+    }
 `
 
 const Box2 = styled.div`
     width: 100%;
-    gap: 4rem;
-    margin-left: 4rem;    
+    gap: 4rem;  
     display: flex;
     justify-content: center;
 `

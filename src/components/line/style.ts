@@ -19,6 +19,10 @@ const Container = styled.div`
         font-weight: 600;
     }
 
+    @media screen and (max-width: 1280px){
+        margin-bottom: 1.3rem;
+    }
+
 `
 
 

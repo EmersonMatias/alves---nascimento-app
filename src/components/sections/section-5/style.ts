@@ -20,10 +20,16 @@ const Container = styled.section`
         margin-top: 0.8rem;
     }
 
+    
+    @media screen and (max-width: 1080px){
+        padding: 8rem 4rem;
+    }
+
 `
 
 const Box1 = styled.div`
     display: flex;
+    align-items: end;
     gap: 4rem;
 
     .leftContent{
@@ -36,7 +42,7 @@ const Box1 = styled.div`
         background-color: ${props => props.theme.colors.black};
         gap: 4rem;
         margin-top: 8rem;
-        padding: 4rem 0rem;
+        padding: 4rem 2.4rem;
         border-radius: 0.8rem;
 
         .socialContent{
@@ -63,8 +69,17 @@ const Box1 = styled.div`
     }
 
     .rightContent{
-        width: 70%;
+        width: 100%;
     } 
+
+
+    @media screen and (max-width: 1080px){
+        .socialContainer{
+            gap: 2.4rem;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 `
 
 const Box2 = styled.div`
@@ -82,11 +97,16 @@ const Box2 = styled.div`
         gap: 1.6rem;
         margin: 2.4rem 0rem;
         text-align: center;
-        line-height: 1.4;
+
 
         p{
             font-size: 1.6rem;
         }
+    }
+
+    h5{
+        text-align: center;
+        line-height: 1.4;
     }
 
     .rightContent{
@@ -99,6 +119,12 @@ const Box2 = styled.div`
     .maps{
         width: 100%;
         height: 100%;
+    }
+
+    @media screen and (max-width: 1080px){
+        .escritorio{
+            width: 40rem;
+        }
     }
 
 `

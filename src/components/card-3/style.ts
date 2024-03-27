@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 
 const Container = styled.div`
+    width: fit-content;
     max-width: 56rem;
     padding: 4rem 3.2rem;
     font-size: 1.6rem;
@@ -19,7 +20,7 @@ const Container = styled.div`
     }
 
     .people{
-        width: 32rem;
+
         max-width: 32rem;
         min-width: 24rem;
     }

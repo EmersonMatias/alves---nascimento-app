@@ -27,6 +27,10 @@ const Container = styled.section`
 const Box1 = styled.div`
     margin-top: 6rem;
     background-color: #313131;
+
+    @media screen and (max-width: 1280px){
+        background-color: transparent;
+    }
 `
 
 const Box2 = styled.div`

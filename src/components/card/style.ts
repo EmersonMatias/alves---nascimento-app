@@ -29,6 +29,18 @@ const Container = styled.div`
         max-width: 60rem;
     }
 
+    
+    @media screen and (max-width: 1280px){
+        max-width: 60rem;
+        position: relative;
+
+        .background{
+            position: absolute;
+            z-index: -5;
+            opacity: 0.4;
+        }
+    }
+
 `
 
 const Style = {

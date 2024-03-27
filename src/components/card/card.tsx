@@ -16,7 +16,7 @@ export default function Card({ side, alt, description, img, title, subareas }: C
         <Style.Container>
             {side === "left" &&
                 <>
-                    <img src={img} alt={alt} />
+                    <img className="background" src={img} alt={alt} />
 
                     <div className="content">
                         <h3>{title}</h3>
@@ -42,7 +42,7 @@ export default function Card({ side, alt, description, img, title, subareas }: C
 
                     </div>
 
-                    <img src={img} alt={alt} />
+                    <img className="background" src={img} alt={alt} />
                 </>
 
             }

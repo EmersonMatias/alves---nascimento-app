@@ -34,11 +34,19 @@ const Box2 = styled.div`
         cursor: pointer;
     }
 
+    @media screen and (max-width: 1080px){
+        right: 4rem;
+    }
+
 `
 
 const Logo = styled.img`
     position: absolute;
     left: 8rem;
+
+    @media screen and (max-width: 1080px){
+        left: 4rem;
+    }
 `
 
 const Style = {

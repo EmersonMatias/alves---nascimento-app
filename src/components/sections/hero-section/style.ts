@@ -11,6 +11,11 @@ const Container = styled.section`
     justify-content: center;
     gap: 5.6rem;
 
+    @media screen and (max-width: 1080px){
+        padding: 6rem 4rem 0rem 4rem;
+        text-align: center;
+    }
+
 `
 
 const Box1 = styled.div`
@@ -33,6 +38,10 @@ const Box1 = styled.div`
 
     .areas{
         margin-top: 0.8rem;
+    }
+
+    @media screen and (max-width: 1080px){
+        text-align: center;
     }
 `
 
