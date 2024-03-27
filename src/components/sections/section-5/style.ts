@@ -23,17 +23,18 @@ const Container = styled.section`
 `
 
 const Box1 = styled.div`
+    display: flex;
+    gap: 4rem;
 
     .leftContent{
         width: fit-content;
-        background-color: gray;
     }
 
     .socialContainer{
         display: flex;
         justify-content: center;
         background-color: ${props => props.theme.colors.black};
-        gap: 1.6rem;
+        gap: 4rem;
         margin-top: 8rem;
         padding: 4rem 0rem;
         border-radius: 0.8rem;
@@ -61,12 +62,16 @@ const Box1 = styled.div`
 
     }
 
+    .rightContent{
+        width: 70%;
+    } 
 `
 
 const Box2 = styled.div`
     margin-top: 8rem;
     background-color: gray;
     display: flex;
+    gap: 4rem;
 
     .escritorio{
         width: 48rem;
@@ -88,7 +93,6 @@ const Box2 = styled.div`
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-left: 4rem;
         background-color: pink;
     }
 

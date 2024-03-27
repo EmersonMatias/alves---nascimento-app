@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const Container = styled.section`
     width: 100%;
-    padding: 8rem 4rem;
+    padding: 8rem;
     display: flex;
 
     h2{

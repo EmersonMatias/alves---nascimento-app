@@ -2,6 +2,7 @@ import Style from "./style";
 import { Section5Contents } from "../../../utils/section-5constants";
 import Escritorio from "../../../assets/img/Escritorio.webp"
 import Location from "../../../assets/img/Location.webp"
+import Form from "../../form/form";
 
 export default function Section5() {
     return (
@@ -14,11 +15,15 @@ export default function Section5() {
                         {Section5Contents.map(({ img, name }) => {
                             return <div className="socialContent" key={name}>
                                 <img src={img} alt={name} />
-                                <h6>Whatsapp</h6>
+                                <h6>{name}</h6>
                             </div>
                         })}
 
                     </div>
+                </div>
+
+                <div className="rightContent">
+                    <Form/>
                 </div>
 
             </Style.Box1>
