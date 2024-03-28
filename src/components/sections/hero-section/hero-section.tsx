@@ -4,7 +4,7 @@ import Style, { Bold } from "./style";
 
 export default function HeroSection() {
     return (
-        <Style.Container>
+        <Style.Container id="herosection">
             <Header />
 
             <Style.Box1>

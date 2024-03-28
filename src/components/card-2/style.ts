@@ -26,6 +26,15 @@ const Container = styled.div`
         line-height: 1.4;
     }
 
+    @media screen and (max-width: 580px){
+   
+        h5{
+            height: fit-content;
+            margin-bottom: 0.8rem;
+        }
+      
+    }
+
 `
 
 

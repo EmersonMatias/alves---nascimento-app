@@ -50,6 +50,7 @@ html{
   color: ${props => props.theme.colors.white};
   font-size: 62.5%;
   font-family: ${props => props.theme.fontFamily.montserrat};
+  scroll-behavior: smooth;
 }
 
 *{

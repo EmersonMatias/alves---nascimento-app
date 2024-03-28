@@ -6,7 +6,7 @@ import Button from "../../button/button";
 
 export default function Section2() {
     return (
-        <Style.Container>
+        <Style.Container id="section2">
             <h2>Áreas de Atuação</h2>
             <h5>Algumas das áreas que são nossa especialidade</h5>
 

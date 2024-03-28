@@ -17,11 +17,26 @@ const Container = styled.header`
         font-size: 1.8rem;
         font-weight: 500;
     }
+
+    @media screen and (max-width: 420px){
+        h6{
+            font-size: 1.4rem;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
 `
 
 const Box1 = styled.div`
     display: flex;
     gap: 1.6rem;
+
+    @media screen and (max-width: 420px){
+        gap: 0.8rem;
+    }
 `
 
 const Box2 = styled.div`
@@ -38,6 +53,10 @@ const Box2 = styled.div`
         right: 4rem;
     }
 
+    @media screen and (max-width: 880px){
+        display: none;
+    }
+
 `
 
 const Logo = styled.img`
@@ -46,6 +65,10 @@ const Logo = styled.img`
 
     @media screen and (max-width: 1080px){
         left: 4rem;
+    }
+
+    @media screen and (max-width: 700px){
+        display: none;
     }
 `
 

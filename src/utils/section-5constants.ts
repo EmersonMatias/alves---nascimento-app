@@ -1,6 +1,7 @@
 import Whatsapp from "../assets/img/Whatsapp.webp"
 import Gmail from "../assets/img/Gmail.webp"
 import Instagram from "../assets/img/Instagram.webp"
+import { sendToInstagram } from "./send-to-social"
 
 export const Section5Contents = [
     {
@@ -13,6 +14,7 @@ export const Section5Contents = [
     },
     {
         img: Instagram,
-        name: "Instagram"
+        name: "Instagram",
+        link: sendToInstagram
     }
 ]

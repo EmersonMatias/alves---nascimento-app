@@ -11,6 +11,7 @@ const Container = styled.button`
     display: flex;
     align-items: center;
     gap: 1.6rem;
+    cursor: pointer;
 
     img{
         width: 4rem;

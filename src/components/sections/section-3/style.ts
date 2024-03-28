@@ -41,7 +41,14 @@ const Box1 = styled.div`
         display: grid;
         grid-template-rows: auto auto; /* 2 linhas com tamanho automático */
         grid-template-columns: auto auto; /* 2 colunas com tamanho automático */
-        gap: 10px; 
+        gap: 24px; 
+    }
+
+    @media screen and (max-width: 580px){
+        display: grid;
+        grid-template-rows: auto; /* 2 linhas com tamanho automático */
+        grid-template-columns: auto; /* 2 colunas com tamanho automático */
+        gap: 40px; 
     }
 
 `

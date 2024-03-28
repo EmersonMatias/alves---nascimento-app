@@ -5,6 +5,8 @@ import Gmail from "../../assets/img/Gmail.webp"
 import Location from "../../assets/img/Location.webp"
 import Instagram from "../../assets/img/Instagram.webp"
 import Facebook from "../../assets/img/Facebook.webp"
+import { GenericButton } from "../ui/generic-button";
+import { sendToInstagram } from "../../utils/send-to-social";
 
 export default function Footer() {
     return (
@@ -21,15 +23,15 @@ export default function Footer() {
 
                 <div className="right">
                     <h6 className="title">Siga-nos</h6>
-                    <div className="social"><img src={Instagram} alt="Instagram" /> <p>Instagram</p></div>
-                    <div className="social"><img src={Facebook} alt="Facebook" /> <p>Facebook</p></div>
+                    <GenericButton className="social" onClick={sendToInstagram}> <img src={Instagram} alt="Instagram" /> <p>Instagram</p></GenericButton>
+                    <div className="social"  ><img src={Facebook} alt="Facebook" /> <p>Facebook</p></div>
 
 
                 </div>
             </Style.Box1>
 
             <Style.Box2>
-            <div className="social location"><img src={Location} alt="Location" /> <p>Rua Amazonas, 1.422 - Campos Elísios Ribeirão Preto - SP</p></div>
+                <div className="social location"><img src={Location} alt="Location" /> <p>Rua Amazonas, 1.422 - Campos Elísios Ribeirão Preto - SP</p></div>
 
                 Copyright 2024. Alves & Nascimento Advocacia. Todos os direitos reservados.
             </Style.Box2>
