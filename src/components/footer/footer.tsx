@@ -6,7 +6,7 @@ import Location from "../../assets/img/Location.webp"
 import Instagram from "../../assets/img/Instagram.webp"
 import Facebook from "../../assets/img/Facebook.webp"
 import { GenericButton } from "../ui/generic-button";
-import { sendToInstagram } from "../../utils/send-to-social";
+import { sendToFacebook, sendToGmail, sendToInstagram, sendToWpp } from "../../utils/send-to-social";
 
 export default function Footer() {
     return (
@@ -15,18 +15,18 @@ export default function Footer() {
                 <div className="left">
                     <h6 className="title">Atendimento</h6>
 
-                    <div className="social"><img src={Whatsapp} alt="Whatsapp" /> <p>Whatsapp</p></div>
-                    <div className="social"><img src={Gmail} alt="Gmail" /> <p>Gmail</p></div>
+          
+                    <GenericButton className="social" onClick={sendToWpp}><img src={Whatsapp} alt="Whatsapp" /> <p>Whatsapp</p></GenericButton>
+                    <GenericButton className="social" onClick={sendToGmail}><img src={Gmail} alt="Gmail" /> <p>Gmail</p></GenericButton>
+                 
                 </div>
 
-                <Style.Logo src={Logo} alt="Logo Armando & Nascimento" />
+                <Style.Logo src={Logo} alt="Logo Armando & Nascimento"/>
 
                 <div className="right">
                     <h6 className="title">Siga-nos</h6>
                     <GenericButton className="social" onClick={sendToInstagram}> <img src={Instagram} alt="Instagram" /> <p>Instagram</p></GenericButton>
-                    <div className="social"  ><img src={Facebook} alt="Facebook" /> <p>Facebook</p></div>
-
-
+                    <GenericButton className="social" onClick={sendToFacebook}><img src={Facebook} alt="Facebook" /> <p>Facebook</p></GenericButton>
                 </div>
             </Style.Box1>
 

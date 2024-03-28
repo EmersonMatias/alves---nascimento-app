@@ -11,7 +11,7 @@ export const Section2Contents = [
         img: Trabalhista,
         alt: "Direito Trabalhista",
         side: "left",
-        subareas: ["PROBLEMAS COM SALÁRIO", "HORA EXTRA", "INSALUBRIDADE OU PERICULOSIDADE", "ASSÉDIO NO TRABALHO", "DOENÇA OU ACIDENTE DE TRABALHO"]
+        subareas: ["PROBLEMAS COM SALÁRIO", "HORA EXTRA", "INSALUBRIDADE OU PERICULOSIDADE", "ASSÉDIO NO TRABALHO", "DOENÇA OU ACIDENTE DE TRABALHO", "RECONHECIMENTO DE VÍNCULO TRABALHISTA"]
     },
     {
         title: "INSS & Aposentadoria",

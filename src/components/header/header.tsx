@@ -3,7 +3,7 @@ import Instagram from "../../assets/img/Instagram.webp"
 import Facebook from "../../assets/img/Facebook.webp"
 import Whatsapp from "../../assets/img/Whatsapp.webp"
 import Logo from "../../assets/svg/Logo.svg"
-import { sendToInstagram } from "../../utils/send-to-social";
+import { sendToFacebook, sendToInstagram } from "../../utils/send-to-social";
 import { GenericButton } from "../ui/generic-button";
 
 export default function Header() {
@@ -24,8 +24,8 @@ export default function Header() {
 
             <Style.Box2>
                 <GenericButton> <img src={Whatsapp} alt="Whatsapp" /></GenericButton>
-                <GenericButton onClick={() => sendToInstagram()}><img src={Instagram} alt="Instagram" /></GenericButton>
-                <GenericButton> <img src={Facebook} alt="Facebook" /></GenericButton>
+                <GenericButton onClick={sendToInstagram}><img src={Instagram} alt="Instagram" /></GenericButton>
+                <GenericButton onClick={sendToFacebook}> <img src={Facebook} alt="Facebook" /></GenericButton>
             </Style.Box2>
 
 

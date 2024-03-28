@@ -43,10 +43,9 @@ export default function Section5() {
                         <img src={Location} alt="Localização" />
                         <p>Rua Amazonas, 1.422<br />Campos Elisios <br />Ribeirão Preto - SP </p>
                     </span>
-                    <iframe className="maps" title="Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.6938602840723!2d-47.80659572398203!3d-21.164578177939507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bfb02c3cc487%3A0x7be49508d473f90d!2sAlves%20%26%20Nascimento%20Advocacia!5e0!3m2!1spt-BR!2sbr!4v1711548855144!5m2!1spt-BR!2sbr" allowFullScreen={false} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                    <iframe className="maps" title="Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1106.1549540075132!2d-47.8019014274673!3d-21.166444243096286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bfaaefb6e67f%3A0x5cf3c5c1bd28fd2!2sR.%20Amazonas%2C%201422%20-%20Campos%20El%C3%ADsios%2C%20Ribeir%C3%A3o%20Preto%20-%20SP%2C%2014085-470!5e0!3m2!1spt-BR!2sbr!4v1711649512258!5m2!1spt-BR!2sbr" allowFullScreen={false} loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                 </div>
             </Style.Box2>
-
         </Style.Container>
     )
 }

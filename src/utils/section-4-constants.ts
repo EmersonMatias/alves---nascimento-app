@@ -1,16 +1,16 @@
 import MarceloImg from "../assets/img/Marcelo.webp"
 import ArmandoImg from "../assets/img/Armando.webp"
-import { sendToLinkedinArmando, sendToWppArmando, sendToWppMarcelo } from "./send-to-social"
+import { sendToGmailArmando, sendToGmailMarcelo, sendToLinkedinArmando, sendToLinkedinMarcelo, sendToWppArmando, sendToWppMarcelo } from "./send-to-social"
 
 export const Section4Contents = [
     {
         img: MarceloImg,
         name: "Marcelo A A Filho",
-        description: "Graduado pela UNIFAFIBE (2009-2013), Marcelo acumula mais de uma década de experiência nos setores X, Y e Z. Ao longo de sua trajetória, já prestou auxílio a um número significativo de pessoas, tendo gerenciado mais de 500 casos documentados no Jusbrasil. Reconhecido por seu comprometimento, Marcelo é um profissional que se dedica incansavelmente para garantir a satisfação contínua de cada cliente, sempre em busca da excelência em seus serviços.",
+        description: "Graduado pela UNIFAFIBE (2009-2013), Marcelo acumula mais de uma década de experiência. Ao longo de sua trajetória, já prestou auxílio a um número significativo de pessoas, tendo gerenciado mais de 500 casos documentados no Jusbrasil. Reconhecido por seu comprometimento, Marcelo é um profissional que se dedica incansavelmente para garantir a satisfação contínua de cada cliente, sempre em busca da excelência em seus serviços.",
         oab: "351.229",
         sendToWpp: sendToWppMarcelo,
-        sendToLinkedin: sendToWppArmando,
-        sendToGmail: sendToWppArmando
+        sendToLinkedin: sendToLinkedinMarcelo,
+        sendToGmail: sendToGmailMarcelo
     },
     {
         img: ArmandoImg,
