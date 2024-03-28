@@ -1,6 +1,6 @@
 import MarceloImg from "../assets/img/Marcelo.webp"
 import ArmandoImg from "../assets/img/Armando.webp"
-import { sendToGmailArmando, sendToGmailMarcelo, sendToLinkedinArmando, sendToLinkedinMarcelo, sendToWppArmando, sendToWppMarcelo } from "./send-to-social"
+import { sendToGmailMarcelo, sendToLinkedinArmando, sendToLinkedinMarcelo, sendToWppArmando, sendToWppMarcelo } from "./send-to-social"
 
 export const Section4Contents = [
     {
