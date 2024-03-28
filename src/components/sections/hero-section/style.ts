@@ -152,6 +152,10 @@ const Background = styled.div`
     @media screen and (max-width: 800px){
       height: 100%;
     }
+
+    @media screen and (max-width: 480px){
+        background-position-x: -70%;
+    }
 `
 export const Bold = styled.span`
     font-weight: 700;
