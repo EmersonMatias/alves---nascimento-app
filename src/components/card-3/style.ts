@@ -19,7 +19,7 @@ const Container = styled.div`
     }
 
     .people{
-
+        margin-bottom: 0.8rem;
         max-width: 32rem;
         min-width: 24rem;
     }
