@@ -36,6 +36,10 @@ const Container = styled.footer`
 
     @media screen and (max-width: 800px){
        padding: 2.4rem;
+
+       .title{
+            margin-bottom: 0.8rem;
+       }
     }
 `
 
@@ -59,7 +63,6 @@ const Box1 = styled.div`
 
     @media screen and (max-width: 800px){
        .left, .right{
-            background-color: blue;
             width: fit-content;
        }
     }
@@ -77,6 +80,7 @@ const Box2 = styled.div`
     align-items: center;
     gap: 0.8rem;
     text-align: center;
+    line-height: 1.2;
 `
 
 const Logo = styled.img`

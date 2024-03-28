@@ -27,8 +27,12 @@ const Container = styled.section`
 
     @media screen and (max-width: 800px){
         padding: 8rem 2.4rem;
+        h2{
+            font-size: 2.8rem;
+        }
 
         h5{
+            font-size: 2rem;
             text-align: center;
         }
     }
@@ -44,7 +48,6 @@ const Box1 = styled.div`
 
     @media screen and (max-width: 1080px){
         max-width: 100%;
-        background-color: gray;
         align-items: center;
         margin-bottom: 3.2rem;
         margin-right: 0;

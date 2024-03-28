@@ -7,7 +7,9 @@ const Container = styled.form`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: gray;
+    background-color: ${props => props.theme.colors.black};
+    padding: 4rem 0rem;
+    border-radius: 0.8rem;
 
     h4{
         font-size: 2.4rem;
@@ -51,19 +53,15 @@ const Container = styled.form`
     }
 
     @media screen and (max-width: 1080px){
-
         input, textarea{
             width: 32rem;
         }
-        background-color: gray;
     }
 
     @media screen and (max-width: 800px){
-
         input, textarea{
-            width: 24rem;
+            width: 28rem;
         }
-        background-color: gray;
     }
 `
 

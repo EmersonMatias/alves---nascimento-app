@@ -28,6 +28,7 @@ const Container = styled.section`
     @media screen and (max-width: 800px){
         padding: 8rem 2.4rem;
 
+
         h2{
             font-size: 2.8rem;
         }
@@ -86,10 +87,12 @@ const Box1 = styled.div`
 
 
     @media screen and (max-width: 1080px){
+
         .socialContainer{
             gap: 2.4rem;
             flex-direction: column;
             align-items: center;
+            margin-top: 4rem;
         }
     }
 
@@ -115,6 +118,7 @@ const Box2 = styled.div`
         gap: 1.6rem;
         margin: 2.4rem 0rem;
         text-align: center;
+        line-height: 1.2;
 
 
         p{
@@ -149,6 +153,8 @@ const Box2 = styled.div`
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-top: 4rem;
+        gap: 2.4rem;
 
         .maps{
             height: 40rem;

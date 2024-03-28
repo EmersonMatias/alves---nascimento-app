@@ -19,6 +19,14 @@ const Container = styled.section`
         text-align: center;
         margin-bottom: 3.2rem;
     }
+
+    @media screen and (max-width: 1080px){
+        padding: 8rem 2.4rem;
+        
+        h3{
+            font-size: 2.4rem;
+        }
+    }
 `
 
 

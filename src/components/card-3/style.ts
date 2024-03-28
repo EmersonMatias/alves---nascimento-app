@@ -10,7 +10,6 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: justify;
     background-color: #171717;
 
     h6{
@@ -44,7 +43,7 @@ const Container = styled.div`
 
     .description{
         line-height: 1.5;
-        text-align: justify;
+        text-align: center;
     }
 `
 
