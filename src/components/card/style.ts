@@ -6,7 +6,6 @@ const Container = styled.div`
     min-height: 40rem;
     display: flex;
 
-
     .content{
         padding: 3.2rem 2.4rem;
 
@@ -38,6 +37,26 @@ const Container = styled.div`
             position: absolute;
             z-index: -5;
             opacity: 0.4;
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        width: 100%;
+        overflow: hidden;
+        border-radius: 0.8rem;
+
+        img{
+            height: 100%;
+        }
+
+        .content{
+            h3{
+                font-size: 2.4rem;
+            }
+
+            h6{
+                font-size: 1.4rem;
+            }
         }
     }
 

@@ -9,7 +9,7 @@ export default function Section3() {
 
             <Style.Box1>
                 {Section3Contents.map(({ description, img, title }) => {
-                    return <Card2 description={description} title={title} img={img} />
+                    return <Card2 key={title} description={description} title={title} img={img} />
                 })}
             </Style.Box1>
 

@@ -22,6 +22,19 @@ const Container = styled.section`
         text-align: center;
         margin-top: 0.8rem;
     }
+
+    @media screen and (max-width: 800px){
+        padding: 8rem 2.4rem;
+
+
+        h2{
+            font-size: 2.8rem;
+        }
+
+        h5{
+            font-size: 2rem;
+        }
+    }
 `
 
 const Box1 = styled.div`
@@ -30,6 +43,12 @@ const Box1 = styled.div`
 
     @media screen and (max-width: 1280px){
         background-color: transparent;
+    }
+
+    @media screen and (max-width: 800px){
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
     }
 `
 
@@ -52,10 +71,22 @@ const Box2 = styled.div`
         margin-bottom: 4rem;
     }
 
+    @media screen and (max-width: 800px){
+        margin-top: 4rem;
+
+        h3{
+            font-size: 2.4rem;
+            line-height: 1.2;
+        }
+
+        p{
+            font-size: 1.8rem;
+            line-height: 1.2;
+
+        }
+    }
+
 `
-
-
-
 
 const Style = {
     Container,Box1,Box2

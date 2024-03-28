@@ -3,7 +3,7 @@ import BackgroundImage from "../../../assets/img/Background.webp"
 
 const Container = styled.section`
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     padding: 6rem 8rem 0rem 8rem;
     position: relative;
     display: flex;
@@ -14,6 +14,12 @@ const Container = styled.section`
     @media screen and (max-width: 1080px){
         padding: 6rem 4rem 0rem 4rem;
         text-align: center;
+    }
+
+    @media screen and (max-width: 800px){
+        padding: 12rem 2.4rem 8rem 2.4rem;
+        gap: 2.4rem;
+        height: fit-content;
     }
 
 `
@@ -38,10 +44,28 @@ const Box1 = styled.div`
 
     .areas{
         margin-top: 0.8rem;
+        line-height: 1.3;
     }
 
     @media screen and (max-width: 1080px){
         text-align: center;
+    }
+
+    
+    @media screen and (max-width: 800px){
+       h1{
+            font-size: 4rem;
+            margin-top: 0.8rem;
+            margin-bottom: 1.6rem;
+       }
+
+       .fontSize{
+            font-size: 7.2rem;
+       }
+
+       h5{
+            font-size: 2rem;
+       }
     }
 `
 
@@ -79,6 +103,26 @@ const Box2 = styled.div`
         right: 8rem;
 
     }
+
+      
+    @media screen and (max-width: 800px){
+        h5{
+            font-size: 1.8rem;
+            width: fit-content;
+        }
+
+        .info1{
+            bottom: 1.6rem;
+            left: 1.6rem;
+            font-size: 1.4rem;
+        }
+
+        .info2{
+            font-size: 1.4rem;
+            bottom: 1.6rem;
+            right: 1.6rem;
+        }
+    }
 `
 
 const Background = styled.div`
@@ -102,6 +146,11 @@ const Background = styled.div`
         height: 100%;
         background-color: rgba(0, 0, 0, 0.6);
         z-index: 1;
+    }
+
+    
+    @media screen and (max-width: 800px){
+      height: 100%;
     }
 `
 export const Bold = styled.span`

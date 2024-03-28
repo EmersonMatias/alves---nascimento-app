@@ -16,6 +16,15 @@ const Container = styled.button`
         width: 4rem;
         height: 4rem;
     }
+
+    @media screen and (max-width: 800px){
+       padding: 1.6rem;
+
+       img{
+            width: 3.2rem;
+            height: 3.2rem;
+       }
+    }
 `
 
 const Style = {

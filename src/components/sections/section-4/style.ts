@@ -25,6 +25,14 @@ const Container = styled.section`
         flex-direction: column;
     }
 
+    @media screen and (max-width: 800px){
+        padding: 8rem 2.4rem;
+
+        h5{
+            text-align: center;
+        }
+    }
+
 `
 
 const Box1 = styled.div`
@@ -39,6 +47,7 @@ const Box1 = styled.div`
         background-color: gray;
         align-items: center;
         margin-bottom: 3.2rem;
+        margin-right: 0;
     }
 `
 
@@ -47,6 +56,12 @@ const Box2 = styled.div`
     gap: 4rem;  
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 800px){
+        flex-direction: column;
+        align-items: center;
+
+    }
 `
 
 const Style = {

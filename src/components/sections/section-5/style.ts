@@ -25,6 +25,18 @@ const Container = styled.section`
         padding: 8rem 4rem;
     }
 
+    @media screen and (max-width: 800px){
+        padding: 8rem 2.4rem;
+
+        h2{
+            font-size: 2.8rem;
+        }
+
+        h5{
+            font-size: 2rem;
+        }
+    }
+
 `
 
 const Box1 = styled.div`
@@ -80,6 +92,12 @@ const Box1 = styled.div`
             align-items: center;
         }
     }
+
+    @media screen and (max-width: 800px){
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 `
 
 const Box2 = styled.div`
@@ -124,6 +142,20 @@ const Box2 = styled.div`
     @media screen and (max-width: 1080px){
         .escritorio{
             width: 40rem;
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .maps{
+            height: 40rem;
+        }
+
+        .escritorio{
+            width: 100%;
         }
     }
 

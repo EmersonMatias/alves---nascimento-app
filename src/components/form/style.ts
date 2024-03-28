@@ -57,6 +57,14 @@ const Container = styled.form`
         }
         background-color: gray;
     }
+
+    @media screen and (max-width: 800px){
+
+        input, textarea{
+            width: 24rem;
+        }
+        background-color: gray;
+    }
 `
 
 

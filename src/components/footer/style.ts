@@ -33,6 +33,10 @@ const Container = styled.footer`
             width: 2.4rem;
         }
     }
+
+    @media screen and (max-width: 800px){
+       padding: 2.4rem;
+    }
 `
 
 const Box1 = styled.div`
@@ -52,6 +56,19 @@ const Box1 = styled.div`
     .location{
         line-height: 1.4;
     }
+
+    @media screen and (max-width: 800px){
+       .left, .right{
+            background-color: blue;
+            width: fit-content;
+       }
+    }
+
+    @media screen and (max-width: 600px){
+       flex-direction: column;
+       align-items: center;
+       gap: 1.6rem;
+    }
 `
 
 const Box2 = styled.div`
@@ -59,6 +76,7 @@ const Box2 = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
+    text-align: center;
 `
 
 const Logo = styled.img`

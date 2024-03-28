@@ -17,6 +17,14 @@ const Container = styled.section`
         text-align: center;
     }
 
+    @media screen and (max-width: 1080px){
+        padding: 8rem 2.4rem;
+
+        h2{
+            font-size: 2.8rem;
+        }
+    }
+
 `
 
 const Box1 = styled.div`
@@ -24,6 +32,18 @@ const Box1 = styled.div`
     justify-content: center;
     gap: 7.2rem;
     margin-top: 4rem;
+
+    @media screen and (max-width: 1080px){
+        gap: 3.2rem;
+    }
+
+    @media screen and (max-width: 800px){
+        display: grid;
+        grid-template-rows: auto auto; /* 2 linhas com tamanho automático */
+        grid-template-columns: auto auto; /* 2 colunas com tamanho automático */
+        gap: 10px; 
+    }
+
 `
 
 const Style = {
