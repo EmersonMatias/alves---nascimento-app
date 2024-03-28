@@ -53,13 +53,14 @@ const Container = styled.form`
     }
 
     @media screen and (max-width: 1080px){
-        input, textarea{
+        input, textarea,p{
             width: 32rem;
         }
+
     }
 
     @media screen and (max-width: 800px){
-        input, textarea{
+        input, textarea,p{
             width: 28rem;
         }
     }
