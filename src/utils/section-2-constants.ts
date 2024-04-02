@@ -11,7 +11,7 @@ export const Section2Contents = [
         img: Trabalhista,
         alt: "Direito Trabalhista",
         side: "left",
-        subareas: ["PROBLEMAS COM SALÁRIO", "HORA EXTRA", "INSALUBRIDADE OU PERICULOSIDADE", "ASSÉDIO NO TRABALHO", "DOENÇA OU ACIDENTE DE TRABALHO", "RECONHECIMENTO DE VÍNCULO TRABALHISTA"]
+        subareas: ["PROBLEMAS COM SALÁRIO", "HORA EXTRA", "INSALUBRIDADE OU PERICULOSIDADE", "ASSÉDIO NO TRABALHO", "DOENÇA OU ACIDENTE DE TRABALHO", "RECONHECIMENTO DE VÍNCULO TRABALHISTA", "VERBAS RESCISÓRIAS"]
     },
     {
         title: "INSS & Aposentadoria",
@@ -19,7 +19,7 @@ export const Section2Contents = [
         img: INSS,
         alt: "INSS & Aposentadoria",
         side: "right",
-        subareas: ["APOSENTADORIA", "PENSÃO POR MORTE", "AUXÍLIO DOENÇA", "AUXÍLIO RECLUSÃO", "AUXILIO ACIDENTE", "BPC/LOAS"]
+        subareas: ["APOSENTADORIA", "PENSÃO POR MORTE", "AUXÍLIO DOENÇA", "AUXÍLIO RECLUSÃO", "AUXÍLIO ACIDENTE", "BPC/LOAS"]
     },
     {
         title: "Direito do Consumidor",
@@ -35,7 +35,7 @@ export const Section2Contents = [
         img: Familia,
         alt: "Direito de familia",
         side: "right",
-        subareas: ["DIVÓRCIO & SEPARAÇÃO", "INVENTÁRIO", "PENSÃO ALIMENTÍCIA", "GUARDA FAMILIAR", "RECONHECIMENTO DE PATERNIDADE"]
+        subareas: ["DIVÓRCIO & SEPARAÇÃO", "INVENTÁRIO", "PENSÃO ALIMENTÍCIA", "GUARDA FAMILIAR", "RECONHECIMENTO DE PATERNIDADE", "INTERDIÇÕES E CURATELAS"]
     },
     {
         title: "Imobiliário",
