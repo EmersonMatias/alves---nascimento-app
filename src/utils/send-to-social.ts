@@ -1,6 +1,6 @@
 export function sendToWpp() {
     const mensagem = encodeURIComponent(`Olá, gostaria de falar com um advogado.`)
-    return window.open(`https://wa.me/5516992031949?text=${mensagem}`, '_blank');
+    return window.open(`https://wa.me/5516991773439?text=${mensagem}`, '_blank');
 }
 
 export function sendToWppMarcelo() {
