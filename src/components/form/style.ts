@@ -24,6 +24,10 @@ const Container = styled.form`
         background-color: ${props => props.theme.colors.black};
         color: ${props => props.theme.colors.white};
         border: 1px solid gray;
+
+        &:disabled{
+            opacity: 0.5;
+        }
     }
 
     span{
@@ -31,7 +35,7 @@ const Container = styled.form`
     }
 
     p{
-        width: 60rem;
+        width: 52rem;
         font-size: 1.2rem;
         margin-top: 0.8rem;
         font-weight: 600;
@@ -50,6 +54,10 @@ const Container = styled.form`
         font-weight: 600;
         border: 1px solid white;
         border-radius: 0.4rem;
+
+        &:disabled{
+            opacity: 0.5;
+        }
     }
 
     @media screen and (max-width: 1080px){

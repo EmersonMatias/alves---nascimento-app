@@ -22,22 +22,22 @@ export function sendToLinkedinMarcelo() {
 }
 
 export function sendToGmailArmando() {
-
+    return window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=contato@alvesenascimento.com.br`, '_blank');
 }
 
 
-export function sendToGmailMarcelo(){
-    return window.open(`https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRCZnfvpvFsmVpsrCBqCdmKtVTcNVvbSLMRdgLLlSVGDzzlzzdLRGRZNmrdNVnxVBKxjnC`, '_blank');
+export function sendToGmailMarcelo() {
+    return window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=contato@alvesenascimento.com.br`, '_blank');
 }
 
-export function sendToGmail(){
-    return window.open(`https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRCZnfvpvFsmVpsrCBqCdmKtVTcNVvbSLMRdgLLlSVGDzzlzzdLRGRZNmrdNVnxVBKxjnC`, '_blank');
+export function sendToGmail() {
+    return window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=contato@alvesenascimento.com.br`, '_blank');
 
 }
 
-export function sendToFacebook(){
+export function sendToFacebook() {
     return window.open(`https://www.facebook.com/people/Alves-Nascimento-Advocacia/61552579748675/`, '_blank');
-  
+
 }
 
 export function sendToInstagram() {
