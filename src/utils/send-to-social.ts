@@ -5,12 +5,12 @@ export function sendToWpp() {
 
 export function sendToWppMarcelo() {
     const mensagem = encodeURIComponent(`Olá, Marcelo. Gostaria de tirar uma dúvida.`)
-    return window.open(`https://wa.me/5517992001646?text=${mensagem}`, '_blank');
+    return window.open(`https://wa.me/5516991773439?text=${mensagem}`, '_blank');
 }
 
 export function sendToWppArmando() {
     const mensagem = encodeURIComponent(`Olá, Armando. Gostaria de tirar uma dúvida.`)
-    return window.open(`https://wa.me/5516991427421?text=${mensagem}`, '_blank');
+    return window.open(`https://wa.me/5516991773439?text=${mensagem}`, '_blank');
 }
 
 export function sendToLinkedinArmando() {
