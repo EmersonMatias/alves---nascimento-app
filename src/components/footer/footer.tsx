@@ -1,10 +1,10 @@
 import Style from "./style";
 import Logo from "../../assets/svg/Logo.svg"
-import Whatsapp from "../../assets/img/Whatsapp.webp"
-import Gmail from "../../assets/img/Gmail.webp"
+import Whatsapp from "../../assets/svg/WhatsappGreen.svg"
+import Gmail from "../../assets/svg/Gmail.svg"
 import Location from "../../assets/img/Location.webp"
-import Instagram from "../../assets/img/Instagram.webp"
-import Facebook from "../../assets/img/Facebook.webp"
+import Instagram from "../../assets/svg/Instagram.svg"
+import Facebook from "../../assets/svg/Facebook.svg"
 import { GenericButton } from "../ui/generic-button";
 import { sendToFacebook, sendToGmail, sendToInstagram, sendToWpp } from "../../utils/send-to-social";
 

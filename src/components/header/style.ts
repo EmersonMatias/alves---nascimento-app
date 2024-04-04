@@ -18,6 +18,13 @@ const Container = styled.header`
         font-weight: 500;
     }
 
+    .icon{
+        width: 3.2rem;
+        height: 3.2rem;
+        z-index: 2;
+    }
+    
+
     @media screen and (max-width: 420px){
         h6{
             font-size: 1.4rem;

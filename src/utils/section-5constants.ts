@@ -1,6 +1,6 @@
-import Whatsapp from "../assets/img/Whatsapp.webp"
-import Gmail from "../assets/img/Gmail.webp"
-import Instagram from "../assets/img/Instagram.webp"
+import Whatsapp from "../assets/svg/WhatsappGreen.svg"
+import Gmail from "../assets/svg/Gmail.svg"
+import Instagram from "../assets/svg/Instagram.svg"
 import { sendToGmail, sendToInstagram } from "./send-to-social"
 
 export const Section5Contents = [

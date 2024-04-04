@@ -1,7 +1,7 @@
 import Style from "./style";
-import Instagram from "../../assets/img/Instagram.webp"
-import Facebook from "../../assets/img/Facebook.webp"
-import Whatsapp from "../../assets/img/Whatsapp.webp"
+import Instagram from "../../assets/svg/Instagram.svg"
+import Facebook from "../../assets/svg/Facebook.svg"
+import Whatsapp from "../../assets/svg/WhatsappGreen.svg"
 import Logo from "../../assets/svg/Logo.svg"
 import { sendToFacebook, sendToInstagram, sendToWpp } from "../../utils/send-to-social";
 import { GenericButton } from "../ui/generic-button";
@@ -21,9 +21,9 @@ export default function Header() {
             </Style.Box1>
 
             <Style.Box2>
-                <GenericButton onClick={sendToWpp}> <img src={Whatsapp} alt="Whatsapp" /></GenericButton>
-                <GenericButton onClick={sendToInstagram}><img src={Instagram} alt="Instagram" /></GenericButton>
-                <GenericButton onClick={sendToFacebook}> <img src={Facebook} alt="Facebook" /></GenericButton>
+                <GenericButton onClick={sendToWpp}> <img className="icon" src={Whatsapp} alt="Icone do Whatsapp" /></GenericButton>
+                <GenericButton onClick={sendToInstagram}><img className="icon" src={Instagram} alt="Icone do Instagram" /></GenericButton>
+                <GenericButton onClick={sendToFacebook}> <img className="icon" src={Facebook} alt="Icone do Facebook" /></GenericButton>
             </Style.Box2>
 
         </Style.Container>

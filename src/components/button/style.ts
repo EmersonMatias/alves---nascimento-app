@@ -14,8 +14,8 @@ const Container = styled.button`
     cursor: pointer;
 
     img{
-        width: 4rem;
-        height: 4rem;
+        width: 3.2rem;
+        height: 3.2rem;
     }
 
     @media screen and (max-width: 800px){

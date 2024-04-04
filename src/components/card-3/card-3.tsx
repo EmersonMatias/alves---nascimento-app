@@ -1,7 +1,7 @@
 import Style from "./style";
-import Whatsapp from "../../assets/img/Whatsapp.webp"
-import Gmail from "../../assets/img/Gmail.webp"
-import Linkedin from "../../assets/img/Linkedin.webp"
+import Whatsapp from "../../assets/svg/WhatsappGreen.svg"
+import Gmail from "../../assets/svg/Gmail.svg"
+import Linkedin from "../../assets/svg/Linkedin.svg"
 import { GenericButton } from "../ui/generic-button";
 
 interface Card3Props {
